@@ -11,7 +11,6 @@ class LinearRegression
 
     def fit(x,y,theta,alpha,num_iter)
         m = y.size
-        m
         j_history = N.zeros([num_iter,1])
         for i in 0..num_iter-1
             hypothesis = x.dot(theta)
